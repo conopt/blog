@@ -25,6 +25,8 @@ $chinese-ming: "AR PL UMing CN", "AR PL UMing HK", "AR PL UMing TW", "AR PL UMin
 
 .prob-title{
     color: CornFlowerBlue;
+    border-top: 1px dashed #999;
+    padding-top: 10px;
 }
 
 /*
@@ -126,7 +128,7 @@ hr{
     list-style: none;
     margin:2em 0 0;
 
-    li{
+    >li{
         border-bottom: 1px solid lighten($grayLight, 20%);
         margin-bottom: 3em;
         padding-bottom: 2.2em;
