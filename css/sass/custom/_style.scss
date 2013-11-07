@@ -15,6 +15,22 @@ Contents
 
 */
 
+/*
+LX
+==============================================
+*/
+$chinese-hei: "Hiragino Sans GB", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei", "Apple LiGothic Medium", "SimHei", "ST Heiti", "WenQuanYi Zen Hei Sharp";
+$chinese-song: "NSimSun", "SimSun", "STSong", "AR PL SungtiL GB", "TW\-Sung", "WenQuanYi Bitmap Song";
+$chinese-ming: "AR PL UMing CN", "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE", "PMingLiU", "MingLiU";
+
+.prob-title{
+    color: CornFlowerBlue;
+}
+
+/*
+LX
+==============================================
+*/
 
 // 1. Shared Styles
 // --------------------------------------------------
@@ -125,7 +141,7 @@ hr{
     }
 
     h3{
-        font-family: 'Raleway';
+        font-family: 'Raleway', $chinese-ming;
         color: $greenSpotify;
         font-weight: normal;
         font-size: 2em;
@@ -138,7 +154,7 @@ hr{
     }
 
     div{
-        font-family: georgia, times, serif;
+        font-family: georgia, times, serif, $chinese-song;
         line-height: 1.6em;
         font-size: 1.15em;
         color: $gray;
@@ -164,7 +180,7 @@ hr{
 }
 
 #post-pagination{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif, $chinese-song;
     margin-bottom: 3em;
 }
 
@@ -201,7 +217,7 @@ hr{
     }
 
     h2{
-        font-family: 'Raleway';
+        font-family: 'Raleway', $chinese-hei;
         font-weight: normal;
         font-size: 5em;
         padding: 1.1em 0 0.2em;
@@ -209,12 +225,12 @@ hr{
         color: $greenSpotify;
 
         span{
-            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, $chinese-song;
         }
     }
 
     section{
-        font-family: georgia,times,serif;
+        font-family: georgia,times,serif,$chinese-song;
         line-height: 1.9em;
         font-size: 1.15em;
         color: darken($grayLight, 10%);
