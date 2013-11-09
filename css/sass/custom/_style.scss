@@ -96,6 +96,10 @@ hr{
     & > .container{
        min-height: 58em;  
     }
+    & > .comment{
+      width: 50em;
+      margin:0 auto;
+    }
 }
 
 .content {
