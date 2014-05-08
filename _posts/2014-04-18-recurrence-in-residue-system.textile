@@ -7,11 +7,11 @@ title: 剩余系中的递推关系
 接下来的思路可以应用到各种可以求得通项递推关系中 这里仅举Fibonacci的特例
 
 Fibonacci数列的定义是 $F_n = F_{n-1} + F_{n-2}$
-我们的目标是求 $ (\sum\limits_{i=1}^n F_n^k) \bmod m$
+我们的目标是求 $ \left(\sum\limits_{i=1}^n F_n^k\right) \bmod m$
 用解特征方程的办法可以得到通项的闭式
 \[
 \begin{equation}
-  F_n = \frac{1}{\sqrt{5}}[(\frac{1+\sqrt{5}}{2})^n-(\frac{1-\sqrt{5}}{2})^n]
+  F_n = \frac{1}{\sqrt{5}}\left[\left(\frac{1+\sqrt{5}}{2}\right)^n-\left(\frac{1-\sqrt{5}}{2}\right)^n\right]
   \label{eq:Fib}
 \end{equation}
 \]用跟逆元类似的思想 我们可以计算一个等价于$\sqrt{5}$的数x
