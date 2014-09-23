@@ -12,9 +12,8 @@ layout: default
         </article>
         <h2 class="title">{{page.title}}</h2>
         <h5>{{ page.date | date: "%d %B %Y" }}</h5>
-        <section>
+        <section class="post-content">
           {{ content }}
-          <hr>
         </section>
         <section style="margin-bottom: 2em;">
           {% if page.previous %} 

@@ -198,7 +198,7 @@ hr{
 
      font-size: 2.2em;
      //margin: 1.9em 0 -1.1em 1em;
-     margin: 2.8em 1em -1.1em 0em;
+     margin: 2.8em 1em -1.1em -4em;
      float: left;
      background-color: $greenSpotify;
      padding: 0.65em;
@@ -217,12 +217,18 @@ hr{
     float: right;
     margin-top: -2em; 
 
-    h5{
-        margin:0.4em 0 2.5em 0;
+    >h5 {
+        margin:0.4em 0 1.5em 0;
         font-weight: normal;
         letter-spacing: 0.1em;
         padding-bottom: 1.1em;
         border-bottom: 1px solid lighten($grayLight, 20%);
+    }
+
+    section.post-content {
+      padding: 0 1em 0.5em;
+      margin-bottom: 0.5em;
+      border-bottom: 1px solid #CCC;
     }
     
     section h2 {
@@ -231,8 +237,9 @@ hr{
 
     h2{
         &.title {
-          padding-left: 1.452em;
+          //padding-left: 1.452em;
           //text-align: center;
+          font-size: 3em;
         }
         font-family: 'Raleway', $chinese-hei;
         font-weight: normal;
