@@ -19,7 +19,7 @@ $
 
 pre. 元素的属性只有两种 在与不在集合内，将集合压位表示，硬算即可
 
-{% highlight cpp %}
+{% highlight cpp linenos %}
 #include <iostream>
 #include <cstdio>
 #include <cstring>
