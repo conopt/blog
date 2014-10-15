@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+<script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.js"></script>
+<script src="http://apps.bdimg.com/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
 <main class="content">
   <section class="container">
     <div class="row-fluid">
@@ -43,3 +45,19 @@ layout: default
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
   </section>
 </main>
+<script>
+  //syntax highlighting foldable
+  $(function() {
+    $('.highlight').before(
+      $('<button class="highlight-toggle">显示代码</button>')
+    );
+    $('.post-content').on('click', '.highlight-toggle', function(e) {
+      $this = $(this);
+      if ($this.text() == '显示代码') 
+        $this.text('隐藏代码');
+      else
+        $this.text('显示代码');
+      $(this).next().toggle('fold');
+    });
+  });
+</script>
