@@ -1,8 +1,8 @@
-------------------------------------------------------------------------
+---
+layout: post_page
+title: compass与rails4的整合
+---
 
-layout: post\_page\
-title: compass与rails4的整合\
-----\
 rails的assets pipeline是很方便的东西\
 但是默认的sass-rails gem无法使用compass\
 compass-rails又不支持rails4\

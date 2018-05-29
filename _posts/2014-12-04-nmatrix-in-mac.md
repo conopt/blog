@@ -1,8 +1,7 @@
-------------------------------------------------------------------------
-
-layout: post\_page\
-title: nmatrix在Mac OS X上的编译&安装\
-----
+---
+layout: post_page
+title: "nmatrix在Mac OS X上的编译&安装"
+---
 
 nmatrix是SciRuby的重要组成部分, 包含了功能完善的高性能的线性代数运算库,
 但是我在编译安装nmatrix的过程中, 遇到了一大堆问题.\

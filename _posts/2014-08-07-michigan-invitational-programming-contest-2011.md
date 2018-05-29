@@ -1,8 +1,7 @@
-------------------------------------------------------------------------
-
-layout: post\_page\
-title: Michigan Invitational Programming Contest 2011\
-----
+---
+layout: post_page
+title: "Michigan Invitational Programming Contest 2011"
+---
 
 #### H. --- Two Sets {#h.-two-sets .prob-title}
 

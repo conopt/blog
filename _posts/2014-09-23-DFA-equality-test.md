@@ -1,8 +1,8 @@
-------------------------------------------------------------------------
+---
+layout: post_page
+title: "2014 ACM/ICPC Asia Regional Guangzhou Online - Equality Test"
+---
 
-layout: post\_page\
-title: 2014 ACM/ICPC Asia Regional Guangzhou Online - Equality Test\
-----\
 [题目地址](http://acm.hdu.edu.cn/showproblem.php?pid=5026)\
 一个赤裸裸的DFA等价判定问题\
 首先要解决的是把题中的NRE转换成等价的DFA\
