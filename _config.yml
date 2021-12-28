@@ -1,6 +1,8 @@
 # visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-baseurl: /blog
+domain: lx75249.github.io
+url: https://lx75249.github.io
+baseurl: /blog/
 paginate: 10 # pagination basted on number of posts
 exclude: ["Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss'] # files to exclude
-pygments: true
+highlighter: true
