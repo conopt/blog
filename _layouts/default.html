@@ -25,21 +25,23 @@
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
 		<link rel="shortcut icon" href="ico/favicon.png">	    
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-        tex2jax: {
-          inlineMath: [['$','$'], ['\\(','\\)']],
-          skipTags: ["script","noscript","style","textarea","code"]
+    <script>
+      MathJax = {
+        options: {
+          skipHtmlTags: [
+            'script', 'noscript', 'style', 'textarea', 'code', 'annotation', 'annotation-xml'
+          ],
         },
-        TeX: {
-          equationNumbers: { autoNumber: "AMS" }
+        loader: {
+          load: ['input/tex-base', 'output/svg', 'ui/menu', '[tex]/require']
         },
-        SVG: {
+        tex: {
+          packages: ['base', 'require'],
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
         }
-      });
+      };
     </script>
-    <script type="text/javascript"
-            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_SVG"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
 	</head>
 	<body>
 	<!-- Header
@@ -52,7 +54,7 @@
 
 	<footer>
 		<div class="container">
-			<a href="http://richbray.me/frap/">Frappuccino</a> | All text contents in this site are free to use, under the terms of the <a href="http://www.wtfpl.net/txt/copying/">WTFPL</a>
+			All text contents in this site are free to use, under the terms of the <a href="http://www.wtfpl.net/txt/copying/">WTFPL</a>
 		</div>
 	</footer>
 
